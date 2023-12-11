@@ -3,6 +3,9 @@
 # dependencies
 node_modules/
 eas.json
+.ios
+.android
+
 
 # Expo
 .expo/

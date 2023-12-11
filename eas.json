@@ -1,5 +1,6 @@
+
+
 {
-  "cli": { "requireCommit": true } ,
   "build": {
     "preview": {
       "android": {
@@ -14,6 +15,10 @@
     "preview3": {
       "developmentClient": true
     },
-    "production": {}
+     "production": {
+      "android": {
+        "image": "latest"
+      }
+    }
   }
 }

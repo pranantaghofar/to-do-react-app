@@ -34,10 +34,10 @@ const TodoItem = ({data}) => {
                   data.status === 'new'
                     ? '#308fe3'
                     : data.status === 'progress'
-                    ? '#FECCB1'
-                    : data.status === 'pending'
-                    ? '#fce303'
-                    : '#CAF6C6',
+                      ? '#FECCB1'
+                      : data.status === 'pending'
+                        ? '#fce303'
+                        : '#CAF6C6',
               },
             ]}>
             {data.status === 'new' ? (
@@ -75,10 +75,10 @@ const TodoItem = ({data}) => {
                   data.status === 'new'
                     ? '#ffffff'
                     : data.status === 'progress'
-                    ? '#d6825c'
-                    : data.status === 'pending'
-                    ? '#a69607'
-                    : '#000000',
+                      ? '#d6825c'
+                      : data.status === 'pending'
+                        ? '#a69607'
+                        : '#000000',
               }}>
               {data.status}
             </Text>
@@ -112,7 +112,7 @@ const TodoItem = ({data}) => {
           <View style={styles.timeContainer}>
             <MaterialCommunityIcons
               name="clock-outline"
-              color={'#9d83e2'}
+              color={'#78BFBE'}
               size={15}
             />
             <Text style={styles.timeText}>{startDate}</Text>
@@ -124,10 +124,10 @@ const TodoItem = ({data}) => {
           <View style={styles.timeContainer}>
             <MaterialCommunityIcons
               name="clock-outline"
-              color={'#9d83e2'}
+              color={'#78BFBE'}
               size={15}
             />
-            <Text style={styles.timeText}>{startDate}</Text>
+            <Text style={styles.timeText}>{endDate}</Text>
           </View>
         </View>
       </View>

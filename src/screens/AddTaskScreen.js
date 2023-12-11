@@ -232,7 +232,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     justifyContent: 'center',
     position: 'absolute',
-    bottom: 20,
+    bottom: 20,  
   },
   addButtonText: {
     alignSelf: 'center',

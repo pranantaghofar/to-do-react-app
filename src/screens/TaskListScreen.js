@@ -133,7 +133,7 @@ const styles = StyleSheet.create({
     width: 300,
     height: 300,
     position: 'absolute',
-    tintColor: '#E2DBF4',
+    tintColor: '#78BFBE',
   },
   taskImageContainer: {
     alignItems: 'center',
@@ -170,7 +170,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   emptyText: {fontSize: 15, fontWeight: '500', color: 'grey'},
-  headerContainer: {marginVertical: 30,flexDirection: 'row', alignItems: 'center'},
+  headerContainer: {
+    marginVertical: 30,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
   headerText: {
     fontWeight: 'bold',
     fontSize: 25,
