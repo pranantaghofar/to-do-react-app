@@ -1,6 +1,6 @@
 # To Do React Native
 
-This is a React Native project created with Expo CLI and integrated with Rapid API to provide tasks listings, tasks details, and editing tasks status (New, Proccess, Pending, & Finish). The app allows users to add tasks with start date and end date with easier user experience.
+This is a React Native project created with Expo CLI and integrated with AsycStorage to provide tasks listings, tasks details, and editing tasks status (New, Proccess, Pending, & Finish). The app allows users to add tasks with start date and end date with easier user experience.
 
 ## Tech Stack
 ![](https://img.shields.io/badge/Android-3DDC84.svg?style=for-the-badge&logo=Android&logoColor=white) ![](https://img.shields.io/badge/React_Native-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black) ![](https://img.shields.io/badge/Expo-000020.svg?style=for-the-badge&logo=Expo&logoColor=white) 
